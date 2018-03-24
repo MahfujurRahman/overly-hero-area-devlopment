@@ -1,0 +1,106 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300i,400,700,700i|Saira+Extra+Condensed:300,400,500,600');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+}
+html, body, .hero-area {
+  height: 100%;
+}
+body{
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+a:hover { text-decoration: none }
+.hero-area {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.section-padding {
+  position: relative;
+  z-index: 1;
+  padding-top: 50px;
+}
+.logo {
+    display: inline-block;
+  }
+  .logo img {
+    width: 50%;
+    height: auto;
+    float: left;
+  }
+  .logo h3 {
+    float: left;
+    text-transform: uppercase;
+    font-style: italic;
+    padding-top: 50px;
+  }
+  .logo span {
+    display: block;
+    font-weight: normal;
+    line-height: 40px;
+  }
+  .text-right {
+    display: inline-block;
+  }
+  .addres-bar {
+    position: relative;
+    float: left;
+  }
+  .addres-bar a {
+    position: absolute;
+    right: 130px;
+    font-size: 25px;
+    color: #333;
+  }
+  .addres-bar p {
+    font-size: 20px;
+  }
+  .phone-bar {
+    float: left;
+    position: relative;
+    margin-left: 40px;
+  }
+  .phon-icon {
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    font-size: 25px;
+    color: #333;
+  }
+  .number{
+    display: block;
+    font-size: 20px;
+    color: #333;
+    padding-left: 40px;
+  }
+  .home-page{
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
