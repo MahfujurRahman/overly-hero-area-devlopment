@@ -27,63 +27,84 @@ h6 {
     font-weight: 700;
     font-family: 'Josefin Sans', sans-serif;
 }
+
 html, body, .hero-area {
   height: 100%;
 }
+
 body{
     font-family: 'Saira Extra Condensed', sans-serif;
 }
+
 a:hover { text-decoration: none }
+
 .hero-area {
   position: absolute;
   top: 0;
   width: 100%;
 }
+
 .section-padding {
   position: relative;
   z-index: 1;
   padding-top: 50px;
 }
+
+.home-page > .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
 .logo {
     display: inline-block;
   }
+
   .logo img {
-    width: 50%;
+    width: 85px;
     height: auto;
     float: left;
   }
+
   .logo h3 {
     float: left;
     text-transform: uppercase;
     font-style: italic;
-    padding-top: 50px;
+    padding-top: 10px;
   }
+
   .logo span {
     display: block;
     font-weight: normal;
     line-height: 40px;
   }
+
   .text-right {
     display: inline-block;
   }
+
   .addres-bar {
     position: relative;
     float: left;
   }
+
   .addres-bar a {
     position: absolute;
     right: 130px;
     font-size: 25px;
     color: #333;
   }
+
   .addres-bar p {
     font-size: 20px;
   }
+
   .phone-bar {
     float: left;
     position: relative;
     margin-left: 40px;
   }
+
   .phon-icon {
     position: absolute;
     left: 0px;
@@ -91,12 +112,14 @@ a:hover { text-decoration: none }
     font-size: 25px;
     color: #333;
   }
+
   .number{
     display: block;
     font-size: 20px;
     color: #333;
     padding-left: 40px;
   }
+
   .home-page{
     background-image: url(../img/bg.jpg);
     background-position: center;
@@ -104,3 +127,45 @@ a:hover { text-decoration: none }
     background-repeat: no-repeat;
     height: 100%;
   }
+
+  
+.hero-containt h2 {
+  font-size: 40px;
+}
+
+.hero-containt p {
+  font-size: 25px;
+  letter-spacing: 1px;
+  padding-bottom: 25px;
+}
+
+.hero-bottun {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #f18000;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+
+.hero-bottun:hover{
+  color: #fff;
+}
+
+.hero-containt {
+  position: relative;
+  padding: 40px;
+  z-index: 2;
+}
+
+.hero-containt::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  opacity: .5;
+  z-index: -1;
+}
